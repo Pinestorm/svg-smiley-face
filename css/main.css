@@ -1,3 +1,7 @@
+.html {
+  background-color: #fff;
+}
+
 .face {
   fill: gold;
 }
@@ -12,19 +16,19 @@
 .left-eyebrow {
   transform: rotate(80deg);
   transform-origin: 100px 82px;
-  transition: all .5 linear;
+  transition: all .5s linear;
 }
 
 .right-eyebrow {
   transform: rotate(100deg);
   transform-origin: 156px 82px;
-  transition: all .5 linear;
+  transition: all .5s linear;
 }
 
-.smiely:hover .left-eyebrow {
+.smiley:hover .left-eyebrow {
   transform: rotate(100deg);
 }
 
-.smiely:hover .right-eyebrow {
+.smiley:hover .right-eyebrow {
   transform: rotate(80deg);
 }
